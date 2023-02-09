@@ -247,6 +247,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-bottom: 8px;
 }
 .advantages-item-icon {
 }
@@ -380,6 +382,7 @@ body {
 
 .footer-container {
   display: flex;
+  align-works-card-link;
 }
 
 .footer-epil {
@@ -481,9 +484,6 @@ body {
   color: var(--web-color);
 }
 
-.works-filter-btn:nth-child(3n) {
-}
-
 .works-filter-btn:hover,
 .works-filter-btn:focus {
   background-color: var(--hover-color);
@@ -499,18 +499,18 @@ body {
   row-gap: 48px;
 }
 .works-card-item {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   width: calc((100%-48px) / 3);
   max-width: 360px;
 }
 
-.works-card-item:hover,
-.works-card-item:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.works-card-link {
+  display: block;
 }
 
-.works-card-link {
+.works-card-link:hover,
+.works-card-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .works-card-wrap {
