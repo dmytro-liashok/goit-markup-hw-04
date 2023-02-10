@@ -172,11 +172,10 @@ body {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-}
 
-.hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: 0 auto;
 
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -187,7 +186,6 @@ body {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
-  margin: 0 auto;
 }
 
 .hero-title {
